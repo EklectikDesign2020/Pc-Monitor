@@ -5,8 +5,8 @@ A virtual envirment is included, {virt folder}.
 
 # Package used.
 Existing package in python : Tkinter, os, time, csv and non existing are PIL. How to install:
-Open a terminal.
-pip install pillow = Document [Here](https://pypi.org/project/Pillow)<br/>
+Open a terminal.<br />
+pip install pillow = Document [Here](https://pypi.org/project/Pillow)<br />
 pip install opencv-python = Document [Here](https://pypi.org/project/opencv-python)
 pip install mime = Document [Here](https://pypi.org/project/mime)
 pip install pynput = Document [Here](https://pypi.org/project/pynput)
