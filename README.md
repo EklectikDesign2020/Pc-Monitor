@@ -7,12 +7,12 @@ A virtual envirment is included, {virt folder}.
 Existing package in python : Tkinter, os, time, csv and non existing are PIL. How to install:
 Open a terminal.
 ```
-pip install pillow = Document [Here](https://pypi.org/project/Pillow/)
-pip install opencv-python = Document [Here](https://pypi.org/project/opencv-python/)
-pip install mime = Document [Here](https://pypi.org/project/mime/)
-pip install pynput = Document [Here](https://pypi.org/project/pynput/
-pip install keyboard = Document [Here](https://pypi.org/project/keyboard/)
-pip install pyttsx3 = Document [Here](https://pypi.org/project/pyttsx3/)
+pip install pillow = Document [Here](https://pypi.org/project/Pillow)
+pip install opencv-python = Document [Here](https://pypi.org/project/opencv-python)
+pip install mime = Document [Here](https://pypi.org/project/mime)
+pip install pynput = Document [Here](https://pypi.org/project/pynput)
+pip install keyboard = Document [Here](https://pypi.org/project/keyboard)
+pip install pyttsx3 = Document [Here](https://pypi.org/project/pyttsx3)
 ```
 If you do not have "pip" please follow this instruction and how to install [PIP](https://phoenixnap.com/kb/install-pip-windows).
 
