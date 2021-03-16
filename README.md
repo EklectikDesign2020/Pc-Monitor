@@ -12,7 +12,7 @@ pip install opencv-python = Document [Here](https://pypi.org/project/opencv-pyth
 pip install mime = Document [Here](https://pypi.org/project/mime)
 pip install pynput = Document [Here](https://pypi.org/project/pynput)
 pip install keyboard = Document [Here](https://pypi.org/project/keyboard)
-pip install pyttsx3 = Document [Here](https://pypi.org/project/pyttsx3)
+pip install pyttsx3 = Document [PIP](https://phoenixnap.com/kb/install-pip-windows).
 ```
 If you do not have "pip" please follow this instruction and how to install [PIP](https://phoenixnap.com/kb/install-pip-windows).
 
