@@ -1,7 +1,5 @@
 # Security SNAPPER.
-This software monitors once started, monitors key press and your keyboard, once a key has been detected will snap a photo and send to your
-config email. The application takes in only gmail, if your gmail is not config for 3rd party application, follow instruction below.
-A virtual envirment is included, {virt folder}.
+Once started, this application monitors the system for any keyboard activity. When a keystroke is detected, the application will take a snapshot and send the image to the email provided during setup. Currently the application only allows for the use of gmail addresses. Instructions to allow 3rd party access to the gmail account are provided below. A virtual environment is included, {virt folder}. 
 
 # Package used.
 Existing package in python : Tkinter, os, time, csv and non existing are PIL. How to install:
@@ -17,8 +15,7 @@ pip install pyttsx3 = Document [Here](https://pypi.org/project/pyttsx3/)
 If you do not have "pip" please follow this instruction and how to install [PIP](https://phoenixnap.com/kb/install-pip-windows).
 
 # Description.
-Once you have configurated your Email in the Email setup menu, type a password that serves to quit application, once the application started it will disapear, to reappear hit
-{ESC} key and reenter the password, the application will then quit. 
+First you must use the Email Setup menu to configure the email address used by the application.  To initiate the PC Monitor, enter a password in the field provided. The application will begin monitoring the keyboard and the window will then disappear.  To disable the application, depress the ESC key and reenter the password in the field provided. The application will then stop. 
 
 # Further updates.
 Msn server.
@@ -26,7 +23,12 @@ Mouse tracking.
 Pc movement.
 
 # Config Gmail account
-Log in to your account, once done click on your profile icon top right corner and click on 'Manage your account', on the left side you will see 'security', then search for 'less secure access' 'ENABLE'. I don't recommend doing this with your personal E-mail.
+1. Log in to your account. 
+2. Select your profile icon on the top right corner of the window. 
+3. Select 'Manage your account' 
+4. Select Security on the left side od the window 
+5. Then ENABLE Less Secure Access 
+
 
 # Donation or any idea's how to improve the program.
 For any idea's or if you wish to help a solo developer please contact me on Eklectik.design@hotmail.com
