@@ -2,16 +2,15 @@
 Once started, this application monitors the system for any keyboard activity. When a keystroke is detected, the application will take a snapshot and send the image to the email provided during setup. Currently the application only allows for the use of gmail addresses. Instructions to allow 3rd party access to the gmail account are provided below. A virtual environment is included, {virt folder}. 
 
 # Package used.
-Existing package in python : Tkinter, os, time, csv and non existing are PIL. How to install:
-Open a terminal.
-```
-pip install pillow = Document [Here](https://pypi.org/project/Pillow/)
-pip install opencv-python = Document [Here](https://pypi.org/project/opencv-python/)
-pip install mime = Document [Here](https://pypi.org/project/mime/)
-pip install pynput = Document [Here](https://pypi.org/project/pynput/
-pip install keyboard = Document [Here](https://pypi.org/project/keyboard/)
-pip install pyttsx3 = Document [Here](https://pypi.org/project/pyttsx3/)
-```
+Existing package in python : Tkinter, os, time, csv and non existing are PIL. How to install:<br />
+Open a terminal.<br />
+pip install pillow = Document [Here](https://pypi.org/project/Pillow)<br />
+pip install opencv-python = Document [Here](https://pypi.org/project/opencv-python)<br />
+pip install mime = Document [Here](https://pypi.org/project/mime)<br />
+pip install pynput = Document [Here](https://pypi.org/project/pynput)<br />
+pip install keyboard = Document [Here](https://pypi.org/project/keyboard)<br />
+pip install pyttsx3 = Document [Here](https://pypi.org/project/pyttsx3/)<br />
+
 If you do not have "pip" please follow this instruction and how to install [PIP](https://phoenixnap.com/kb/install-pip-windows).
 
 # Description.
