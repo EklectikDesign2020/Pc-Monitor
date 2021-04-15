@@ -6,8 +6,10 @@ pip install pynput = key press listener
 pip install keyboard = key press controller
 pip install pyttsx3 = Voice
 
-This program controles key pressed on your pc once activated, it will snap a picture and 
-send to the email you entered in email setup. '''
+First you must use the Email Setup menu to configure the email address used by the application.  To initiate the PC Monitor, enter a password in 
+the field provided. The application will begin monitoring the keyboard and the window will then disappear.  To disable the application, 
+depress the ESC key and reenter the password in the field provided. The application will then stop.'''
+
 import os
 import cv2
 import threading
@@ -45,8 +47,7 @@ my_image.pack(padx=15)
 def send_email():
 	''' <function send_email>
 
-	Is called every time a key is pressed, sends the last image.png taken 
-	by webcam. modules = email, email.mime '''
+	This function is used to email the image when a keystroke is detected'''
 	
 	global file
 
@@ -89,9 +90,9 @@ def send_email():
 def cam():
 	''' <function Webcam>
 
-	Starts the webcam and the listener for any key pressed, for every
-	key pressed a picture will be taken and send to user, user most first
-	enter a password that will be saved in (key) variable. module = cv2 '''
+	Once the application has been activated by entry of a starting password, 
+	this function starts the webcam and listener. For every key pressed, 
+	a picture is taken and sent to the email address provided by the user.'''
 	
 	global key_
 	# Check password is not empty
@@ -143,13 +144,13 @@ def cam():
 
 		del(webcam)
 	else:
-		messagebox.showerror("Password", "Password is empty or is less the 6 letters, please enter a password for later quit the program.")
+		messagebox.showerror("Password", "Password is empty or is less the 6 letters, please enter a Valid password to use for closing the application.")
 
 
 def quit():
 	''' <Function quit>
 
-	Quits the program if re-entered passwrod match the key, else the program stays active '''
+	Quits the program if re-entered passwrod matches the key, otherwise the program stays active '''
 
 	try:
 		if key_ == enter_password2.get():
@@ -163,7 +164,7 @@ def quit():
 def threader():
 	''' <Function thread>
 
-	Starts the threading for webcam function and avoid freezing of program '''
+	Starts the threading for webcam function and avoid freezing the application.'''
 
 	global t
 	t =threading.Thread(target=cam)
@@ -195,8 +196,7 @@ def submit_email():
 def email_setup():
 	''' <function email_setup>
 
-	Opens new window and lets user input email information to be used
-	in email_send function. '''
+	This function allows the user to enter an email address for the application to use to receive images. '''
 
 	global user_email_e
 	global user_pass_e
@@ -206,7 +206,7 @@ def email_setup():
 	email_win.title("Setup user email")
 
 	# Label
-	instruction = Label(email_win, text="Enter your email and password. The Application will use those \ninfomation to send the email to some email address. ").pack(pady=15, padx=5)
+	instruction = Label(email_win, text="Enter your email and password. The Application will use this \ninfomation to send the email to some email address. ").pack(pady=15, padx=5)
 	user_email = Label(email_win, text="Enter your email: ").pack(pady=(5,0))
 
 	# Entry
